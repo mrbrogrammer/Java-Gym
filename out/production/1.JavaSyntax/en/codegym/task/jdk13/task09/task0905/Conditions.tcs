@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.jdk13.task09.task0905"\n\nThe method returns a result — the depth of its stack trace
+
+Implement a method that returns the stack trace depth, i.e. the number of methods in the stack trace.
+In the method, the same number needs to be displayed on the screen.
+
+
+Требования:
+1.	In the getStackTraceDepth method, you need to return the depth of its stack trace.
+2.	In the getStackTraceDepth method, you need to display the depth of its stack trace.
+3.	Use Thread.currentThread().getStackTrace().
+4.	In the main method, you must call the getStackTraceDepth method.
+
+

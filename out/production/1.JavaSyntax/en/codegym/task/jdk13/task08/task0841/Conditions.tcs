@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.jdk13.task08.task0841"\n\nAnthill
+
+There are three classes of ants in our anthill: Queen, Soldier, and Worker.
+There is a single queen for the entire anthill. Her populate method creates tens of soldier ants and hundreds of worker ants.
+Add code to the main method:
+- send all the worker ants in the workers array to find food (sendForFood method);
+- send all the soldier ants in the soldiers array into battle (sendIntoBattle method).
+
+
+Требования:
+1.	The main method should populate the anthill by calling the Queen class&#39;s populate method.
+2.	The main method should call the sendForFood method on each of the ants in the workers array.
+3.	The main method should call the sendIntoBattle method on each of the ants in the soldiers array.
+
+

@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.jdk13.task01.task0103"\n\nMy young friend
+
+It&#39;s currently 3126. My friend was born 8 years ago.
+Write a program that displays my friend&#39;s birth year.
+
+
+Требования:
+1.	The program should output text.
+2.	The displayed year must consist of 4 digits.
+3.	The displayed year must begin with &quot;31&quot;.
+4.	The displayed year must match the task conditions.
+
+

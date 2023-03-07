@@ -1,0 +1,12 @@
+taskKey="en.codegym.task.jdk13.task12.task1203"\n\nConscious choice
+
+When a type is narrowed, part of a number might be discarded. Or it might not.
+Implement the isByte, isShort, and isInt methods. They should determine whether the input argument can be respectively converted to the byte, short, and int types &quot;without serious consequences&quot;.
+
+
+Требования:
+1.	The isByte method must return true if the input argument can be narrowed to a byte without loss of precision.
+2.	The isShort method must return true if the input argument can be narrowed to a short without loss of precision.
+3.	The isInt method must return true if the input argument can be narrowed to an int without loss of precision.
+
+

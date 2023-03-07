@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.jdk13.task08.task0816"\n\nRemove all people born in the summer
+
+In the Map&lt;String, Date&gt;, add ten entries that represent (last name, birth date) pairs.
+Remove from the map all people born in the summer.
+
+
+Требования:
+1.	The program should not display text on the screen.
+2.	The program should not read values from the keyboard.
+3.	The createMap() method must create and return a HashMap that has (String, Date) elements and contains 10 entries.
+4.	The removeAllSummerPeople() method should remove from the map all people born in the summer.
+
+

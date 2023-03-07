@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.jdk13.task07.task0721"\n\nMaximum and minimum numbers in an array
+
+Create an array of 20 numbers. Populate it with numbers from the keyboard. Find the maximum and minimum numbers in the array.
+Display the maximum and minimum numbers, separated by a space.
+
+
+Требования:
+1.	Create an array and initialize it with a new int[20] value.
+2.	Read 20 integers from the keyboard and add them to the array.
+3.	Find the maximum and minimum integers, and then display them separated by a space.
+4.	Use a for loop.
+
+

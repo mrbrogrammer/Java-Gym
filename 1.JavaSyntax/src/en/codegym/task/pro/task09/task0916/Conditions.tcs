@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task09.task0916"\n\nString.format()
+
+Make the format(String name, int salary) method return a string like this:
+My name is &lt;name&gt;. I will earn $&lt;salary&gt; a month.
+
+Use the String.format() method to do this.
+
+
+Требования:
+1.	You need the format(String, int) method to use the String.format() method.
+2.	You need the format(String, int) method to return a string in accordance with the task conditions.
+
+

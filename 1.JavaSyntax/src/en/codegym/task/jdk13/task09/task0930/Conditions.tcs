@@ -1,0 +1,35 @@
+taskKey="en.codegym.task.jdk13.task09.task0930"\n\nTask about algorithms
+
+The program reads words and numbers from the keyboard, adds them to a list, converts the list to an array, and then displays the array on the screen.
+Sort the array so that words appear in ascending order and numbers appear in descending order.
+
+Example input:
+Cherry
+1
+Bob
+3
+Apple
+22
+0
+Watermelon
+
+Example output:
+Apple
+22
+Bob
+3
+Cherry
+1
+0
+Watermelon
+
+
+Требования:
+1.	The program must read data from the keyboard.
+2.	The program should display data on the screen.
+3.	The displayed words should be sorted in ascending order. Use the ready-made isGreaterThan(String, String) method.
+4.	The displayed numbers must be sorted in descending order.
+5.	In the main(String[]) method, you need to use the sort(String[]) method.
+6.	In the sort (String []) method, you need to use the isGreaterThan(String, String) and isNumber(String) methods.
+
+

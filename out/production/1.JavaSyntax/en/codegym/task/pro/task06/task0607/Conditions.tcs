@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task06.task0607"\n\nWelcome! But not everyone.
+
+This is the signIn() method that greets website users. Currently, it greets all users, but it should only greet registered users. All unregistered users have the name &quot;user&quot;.
+Add username validation at the beginning of the signIn() method.
+If the name is &quot;user&quot;, use the return keyword to abort execution of the method.
+
+
+Требования:
+1.	If the username is &quot;user&quot;, then the signIn() method should exit without printing anything on the console.
+2.	If the username is not &quot;user&quot;, then the signIn() method should continue and print greetings on the console.
+3.	The return keyword must be used to interrupt the signIn() method.
+
+

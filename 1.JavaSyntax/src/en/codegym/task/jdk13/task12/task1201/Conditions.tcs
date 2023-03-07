@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.jdk13.task12.task1201"\n\nFrom a small bucket to a big one
+
+When two long numbers are multiplied, the result may exceed the capacity of the long type.
+If precision is not important, then one option could be to store the result as a floating point number.
+Implement the getSquare method. It should return the square of the input argument.
+
+
+Требования:
+1.	The getSquare method must return the square of the input argument as a double.
+
+

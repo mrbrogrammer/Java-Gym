@@ -1,0 +1,10 @@
+taskKey="en.codegym.task.pro.task05.task0515"\n\nComparing two-dimensional arrays
+
+Fix the logic of the main(String[]) method. It should display true if arrayFirst is the same as arraySecond. Otherwise, it should return false.
+
+
+Требования:
+1.	If arrayFirst is equal to arraySecond, then main(String[]) displays true on the console.
+2.	If arrayFirst is not equal to arraySecond, then main(String[]) displays false on the console.
+
+

@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.jdk13.task05.task0523"\n\nConstructor
+
+Figure out what the program does. Find and fix one bug in the Circle class. Don&#39;t change the main method.
+Hint: Study the default constructor.
+
+
+Требования:
+1.	Don&#39;t change the main method.
+2.	The program should display the word &quot;Red&quot; on the screen.
+3.	The Color class&#39;s getDescription method must return the value of the variable description.
+4.	The Color class&#39;s setDescription method must set the value of the variable description.
+
+

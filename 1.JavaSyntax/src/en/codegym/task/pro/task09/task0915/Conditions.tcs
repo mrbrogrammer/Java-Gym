@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task09.task0915"\n\nStringTokenizer
+
+Using a StringTokenizer, split the query variable into parts based on the delimiter variable.
+Example:
+getTokens(&quot;java.util.stream&quot;, &quot;\\.&quot;)
+returns the string array
+{&quot;java&quot;, &quot;util&quot;, &quot;stream&quot;}
+
+Hint: method countTokens() will be useful
+
+
+Требования:
+1.	The getTokens(String, String) method needs to use a StringTokenizer.
+2.	The getTokens(String, String) method needs to return a String array filled in accordance with the task conditions.
+
+

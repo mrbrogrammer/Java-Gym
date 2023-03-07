@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task06.task0616"\n\nEmployee records
+
+Here you have in front of you a digital employee record. It contains the employee&#39;s name, position and salary.
+The name of the employee is unlikely to change, but his or her position and salary might.
+These changes are made using the setPosition() and setSalary() methods. Of course, they are not working correctly at present.
+Figure out the reason and fix the bugs. In doing this, neither the names of instance variables, nor the names of method parameters can be changed.
+
+
+Требования:
+1.	The setPosition() method must set the passed value to the position instance variable.
+2.	The setSalary() method must set the passed value to the salary instance variable.
+3.	You cannot change the names of the instance variables.
+4.	You cannot change the names of method parameters.
+
+

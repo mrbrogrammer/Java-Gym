@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.jdk13.task07.task0715"\n\nMore Sam-I-Am
+
+1. Create a string list consisting of the words: &quot;Sam&quot;, &quot;I&quot;, &quot;Am&quot;.
+2. After each word, insert the word &quot;Ham&quot; into the list.
+3. Display the result on the screen, each list element on a new line.
+
+
+Требования:
+1.	Declare a string list variable and immediately initialize it.
+2.	Add the following words to the list: &laquo;Sam&raquo;, &laquo;I&raquo;, &laquo;Am&raquo;.
+3.	After each word, add the string &laquo;Ham&raquo; to the list.
+4.	Display the list items on the screen, each on a new line.
+
+

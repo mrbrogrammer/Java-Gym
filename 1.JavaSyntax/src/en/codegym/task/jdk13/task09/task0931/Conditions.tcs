@@ -1,0 +1,9 @@
+taskKey="en.codegym.task.jdk13.task09.task0931"\n\nDeleting spaces
+
+Implement the deleteSpaces(String) method so that all spaces are removed from the string received in the input parameter.
+
+
+Требования:
+1.	The deleteSpaces(String) method needs to remove all spaces from the string received in the input parameter.
+
+

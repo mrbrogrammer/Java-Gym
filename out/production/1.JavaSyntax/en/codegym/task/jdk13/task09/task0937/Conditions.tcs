@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.jdk13.task09.task0937"\n\nLiterals
+
+Data written directly in program code are called literals. This applies to values of primitives and the String type.
+In the Solution class, you need to create variables of each primitive type, as well as of the String type, and assign arbitrary values to them.
+The String variable must be initialized with a string literal.
+
+
+Требования:
+1.	Variables of all primitive types must be created in the Solution class.
+2.	A String variable must be created in the Solution class.
+3.	The variables of primitive types must be initialized with the appropriate literals when they are declared.
+4.	The String variable must be initialized with a string literal when it is declared.
+5.	No methods should be created in the Solution class.
+
+

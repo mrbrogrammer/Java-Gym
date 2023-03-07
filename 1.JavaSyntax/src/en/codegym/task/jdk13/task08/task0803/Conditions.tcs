@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.jdk13.task08.task0803"\n\nMap of cats
+
+There is a Cat class with a String name.
+Create a Map&lt;String, Cat&gt;.
+Add 10 cats to the collection. The cat&#39;s name should be used as the key.
+Display the result on the screen, each element on a new line.
+
+
+Требования:
+1.	The program should not read values from the keyboard.
+2.	The addCatsToMap() method should return all cats in the String[] cats array to the collection in accordance with the task conditions.
+3.	The program should display the contents of the collection on the screen, each pair on a new line and with the key and value separated by a hyphen.
+
+

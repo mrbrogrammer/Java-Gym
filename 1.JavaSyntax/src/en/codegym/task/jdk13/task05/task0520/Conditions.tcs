@@ -1,0 +1,19 @@
+taskKey="en.codegym.task.jdk13.task05.task0520"\n\nPopulate the Rectangle class
+
+The parameters for the rectangle (Rectangle class) will be top, left, width, and height.
+Create as many constructors as possible.
+Examples:
+- 4 parameters are specified: left, top, width, height
+- width/height is not specified (both are 0);
+- height is not specified (it is equal to the width), we&#39;ll create a square
+- create a copy of another rectangle passed as an argument.
+
+
+Требования:
+1.	The Rectangle class must have int variables top, left, width and height.
+2.	The class must have at least one constructor.
+3.	The class must have at least two constructors.
+4.	The class must have at least three constructors.
+5.	The class must have at least four constructors.
+
+

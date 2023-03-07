@@ -1,0 +1,18 @@
+taskKey="en.codegym.task.jdk13.task07.task0707"\n\n5 different strings in a list
+
+1. Initialize the list field in the main method.
+2. Add 5 different strings to the list variable.
+3. Display the size of the list on the screen.
+4. Use a loop to display its contents, each value on a new line.
+
+Note:
+Add strings to the list only after the list is initialized.
+
+
+Требования:
+1.	The ArrayList&lt;String&gt; list field must be initialized in the main method.
+2.	The program should add any 5 strings to the list.
+3.	The program should display the size of the list on the screen.
+4.	The program should display the contents of the list, each value on a new line.
+
+

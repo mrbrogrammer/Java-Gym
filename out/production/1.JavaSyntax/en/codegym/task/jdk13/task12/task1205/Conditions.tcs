@@ -1,0 +1,20 @@
+taskKey="en.codegym.task.jdk13.task12.task1205"\n\nBut that's how I want it
+
+Implement the toCustomString method so that it converts a Number to a String according to a specific type-dependent rule:
+- if the argument is a Byte object, then divide it by 2 and convert it to a string, adding the letter &quot;b&quot; at the end;
+- if the argument is an Integer object, then divide it by 3 and convert it to a string;
+- if the argument is a Double object, then multiply it by 20 and convert it to a string;
+- if the argument is not one of the above types, then return the string &quot;I didn&#39;t expect this type of number!&quot;
+
+The Number class is the parent of the Byte, Double, Float, Integer, Long, and Short classes.
+Use the instanceof operator to determine the type.
+
+
+Требования:
+1.	The toCustomString method must divide the input parameter by 2 and add the letter b at the end, if the input parameter is a Byte object.
+2.	The toCustomString method must divide the input parameter by 3 if the input parameter is an Integer object.
+3.	The toCustomString method must multiply the input parameter by 20 if the input parameter is a Double object.
+4.	The toCustomString method should return the string &quot;I didn&#39;t expect this type of number!&quot;, if the input parameter is not a Byte, Integer, or Double.
+5.	To determine the type, you need to use the instanceof operator.
+
+

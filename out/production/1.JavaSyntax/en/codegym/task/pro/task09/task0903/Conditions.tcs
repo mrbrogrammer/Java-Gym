@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task09.task0903"\n\nString literals
+
+A public string field is declared and initialized in the Solution class. But the string is too long and difficult to read.
+For better readability, you need to split it into 5 substrings and concatenate them with the &quot;+&quot; (string concatenation) operator, like this:
+- first line: &quot;Always write code as if &quot;
+- second line: &quot;the guy who ends up maintaining your code will be &quot;
+- third line: &quot;a violent psychopath &quot;
+- fourth line: &quot;who knows where you live. &quot;
+- fifth line: &quot;Martin Golding&quot;
+
+
+Требования:
+1.	Change the text field according to the task conditions.
+
+

@@ -1,0 +1,12 @@
+taskKey="en.codegym.task.jdk13.task12.task1204"\n\nNumbers and strings
+
+The add method should add up the input arguments and return a string like this:
+a+b=sum
+For example, if you pass (7, 8) to the method, then it should return the string &quot;7+8=15&quot;.
+But the method is not working properly at present. Your task is to fix it.
+
+
+Требования:
+1.	The add method must return a string as outlined in the task conditions.
+
+

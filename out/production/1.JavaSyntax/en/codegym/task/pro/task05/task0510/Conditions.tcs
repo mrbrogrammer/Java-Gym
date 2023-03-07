@@ -1,0 +1,30 @@
+taskKey="en.codegym.task.pro.task05.task0510"\n\nTriangular array
+
+Create a triangular array where the value of each element is the sum of its indices.
+For example:
+array[7][3] = 7 + 3 = 10,
+array[3][0] = 3 + 0 = 3.
+
+Display the array in the following form:
+0
+1 2
+2 3 4
+3 4 5 6
+4 5 6 7 8
+5 6 7 8 9 10
+...
+The numbers in each line are separated by a space.
+You can define a triangular array as follows:
+int[][] array = new int[10][];
+array[0] = new int[1];
+array[1] = new int[2];
+array[2] = new int[3];
+...
+
+
+Требования:
+1.	In the main(String[]) method, fill the two-dimensional result array with numbers as outlined in the task conditions.
+2.	The displayed text should contain 10 lines.
+3.	The displayed numbers must match the task conditions.
+
+

@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task05.task0521"\n\nExecuting a snippet of code
+
+Practice executing a snippet of code while a program is running:
+1. Put a break point on the call to the println method and run the program in debug mode.
+2. After execution stops, press Alt+F8 (Option+F8 for macOS) and execute the following code:
+loop.replaceAll(&quot;\\W&quot;, &quot;&quot;).split(&quot;fahrenheit&quot;)[1]
+3. Assign the result of executing this code to the result field (change the source code).
+
+This means there should be only one change in the Solution class: the result field should be initialized when it is declared.
+
+
+Требования:
+1.	Don&#39;t change the main method.
+2.	The result field must be assigned the correct value.
+
+

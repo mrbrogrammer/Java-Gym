@@ -1,0 +1,21 @@
+taskKey="en.codegym.task.pro.task09.task0910"\n\nUnicode encoding
+
+The public static init(char[]) method is passed an array of 9 characters,
+which needs to be filled with the following values:
+0 - &#39;\u00A9&#39;
+1 - &#39;\u004A&#39;
+2 - &#39;\u0061&#39;
+3 - &#39;\u0076&#39;
+4 - &#39;\u0061&#39;
+5 - &#39;\u0052&#39;
+6 - &#39;\u0075&#39;
+7 - &#39;\u0073&#39;
+8 - &#39;\u0068&#39;
+
+To see the result, run the main() method.
+
+
+Требования:
+1.	The init(char[]) method needs to fill the received char array in accordance with the task conditions.
+
+

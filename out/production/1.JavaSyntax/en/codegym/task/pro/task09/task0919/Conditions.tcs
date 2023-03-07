@@ -1,0 +1,10 @@
+taskKey="en.codegym.task.pro.task09.task0919"\n\nFlipping strings
+
+Using a StringBuilder in the reverseString(String) method, reverse the string that is received as a parameter.
+
+
+Требования:
+1.	The reverseString(String) method needs to use a StringBuilder.
+2.	The reverseString(String) method must return the reversed string.
+
+

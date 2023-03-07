@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.pro.task06.task0611"\n\nAnalyzing arrays
+
+This program should display information about the created array. But due to misplaced static modifiers, it won&#39;t compile.
+Correct these mistakes. Add the static modifier where it is needed.
+
+
+Требования:
+1.	The code must compile.
+2.	Add the minimum required number of static modifiers.
+
+

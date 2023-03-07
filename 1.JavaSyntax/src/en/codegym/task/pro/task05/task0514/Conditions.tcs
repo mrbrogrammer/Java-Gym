@@ -1,0 +1,12 @@
+taskKey="en.codegym.task.pro.task05.task0514"\n\nDisplaying two-dimensional arrays
+
+Implement the main(String[]) method, which displays the strings and ints arrays on the console using the Arrays.deepToString(Object[][]) method.
+
+
+Требования:
+1.	The Solution class must have a public static String[][] strings variable.
+2.	The Solution class must have a public static int[][] ints variable.
+3.	In the main(String[]) method, display the strings array on the console using the Arrays.deepToString(Object[][]) method.
+4.	In the main(String[]) method, display the ints array on the console using the Arrays.deepToString(Object[][]) method.
+
+

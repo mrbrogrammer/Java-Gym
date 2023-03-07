@@ -1,0 +1,10 @@
+taskKey="en.codegym.task.pro.task05.task0512"\n\nCreating a multi-array
+
+In the main(String[]) method, display all the numbers in the three-dimensional multiArray array.
+
+
+Требования:
+1.	The Solution class must have a public static int[][][] multiArray variable.
+2.	In the main(String[]) method, display all the numbers in multiArray.
+
+

@@ -1,0 +1,10 @@
+taskKey="en.codegym.task.pro.task06.task0614"\n\nRemembering geometry
+
+Take a look at what the program does. Add the final modifier to standard constants
+(variables with immutable values).
+
+
+Требования:
+1.	The final modifier must be set on all constants.
+
+

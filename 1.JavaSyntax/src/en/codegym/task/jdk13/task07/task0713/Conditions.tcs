@@ -1,0 +1,21 @@
+taskKey="en.codegym.task.jdk13.task07.task0713"\n\nThree arrays
+
+1. Enter 20 numbers from the keyboard, save them in the numbers list, and then sort them to three other lists:
+- Numbers divisible by 3 (x%3==0) end up in the divBy3 list,
+- Numbers divisible by 2 (x%2==0) end up in the divBy2 list,
+- and all the rest remain in the others list,
+- Numbers divisible by both 3 and 2 (for example, 6) go into both the divBy3 list and the divBy2 list.
+The static list variables have already been created and initialized.
+2. The printList() method should display each list item on a new line.
+3. Using the printList() method, display the following on the screen: first, the divBy3 list, then divBy2, then others.
+
+
+Требования:
+1.	Read 20 numbers from the keyboard and add them to the numbers list.
+2.	Add to the divBy3 list all numbers in the numbers list that are divisible by 3.
+3.	Add to the divBy2 list all numbers in the numbers list that are divisible by 2.
+4.	Add to the others list all the remaining numbers from the numbers list.
+5.	The printList() method should display each element of the passed list on a new line.
+6.	The program should display the divBy3, divBy2, and others lists using the printList() method.
+
+

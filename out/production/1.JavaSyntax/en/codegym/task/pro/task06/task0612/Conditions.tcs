@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task06.task0612"\n\nEverything has a root
+
+The printSqrt(int[] array) method should print the square root of each element in the passed array.
+But this isn&#39;t happening due to conflicting variable names. Correct the variable names so that the code compiles.
+The program should display a suitable line on the console for each element of the array.
+Example of a line:
+The square root of 64 is 8.0
+
+
+Требования:
+1.	The code must compile.
+2.	For each element in the array, the printSqrt(int[] array) method must print a string in accordance with the task conditions.
+
+

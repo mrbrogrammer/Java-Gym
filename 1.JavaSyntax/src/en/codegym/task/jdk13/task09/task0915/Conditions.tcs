@@ -1,0 +1,26 @@
+taskKey="en.codegym.task.jdk13.task09.task0915"\n\nCatching custom exceptions
+
+1. Analyze the exceptions thrown by the BEAN.throwExceptions method.
+2. In the handleExceptions method, call the BEAN.throwExceptions method and handle the exceptions:
+2.1. if there is a FileSystemException, then log it (call the BEAN.log method) and rethrow
+2.2. if there is a CharConversionException or any other IOException, then just log it (call the BEAN.log method)
+3. Add to the handleExceptions method signature the exception class you throw in Item 2.1.
+4. In the main method, handle the remaining exception by logging it (call the BEAN.log method). Use try-catch
+
+Hint:
+If you capture a MyException and you didn&#39;t want to catch it, you can rethrow it using code like:
+catch (MyException e) {
+throw e;
+}
+
+
+Требования:
+1.	In the handleExceptions method, you need to call the BEAN.throwExceptions method.
+2.	In the handleExceptions method, you need to log the FileSystemException (call the BEAN.log method), and then rethrow it.
+3.	In the handleExceptions method, you need to only log (call the BEAN.log method) the CharConversionException.
+4.	Any IOException in the handleExceptions method only needs to be logged.
+5.	You need to add the FileSystemException class to the signature of the handleExceptions method.
+6.	In the main method, you must use a try-catch statement.
+7.	In the main method, you need to log the exceptions (call the BEAN.log method) thrown by the handleExceptions method.
+
+

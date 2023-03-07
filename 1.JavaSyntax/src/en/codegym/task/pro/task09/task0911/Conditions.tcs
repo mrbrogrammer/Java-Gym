@@ -1,0 +1,20 @@
+taskKey="en.codegym.task.pro.task09.task0911"\n\nCongratulations
+
+Initialize the static variables with the following values:
+- partyFace - &quot;\uD83E\uDD73&quot;
+- balloon - &quot;\uD83C\uDF88&quot;
+- gift - &quot;\uD83C\uDF81&quot;
+- partyPopper - &quot;\uD83C\uDF89&quot;
+- cake - &quot;\uD83C\uDF82&quot;
+
+To see some congratulations, run the main() method.
+
+
+Требования:
+1.	The partyFace variable must be initialized with the value &quot;\uD83E\uDD73&quot; when it is declared.
+2.	The balloon variable must be initialized with the value &quot;\uD83C\uDF88&quot; when it is declared.
+3.	The gift variable must be initialized with the value &quot;\uD83C\uDF81&quot; when it is declared.
+4.	The partyPopper variable must be initialized with the value &quot;\uD83C\uDF89&quot; when it is declared.
+5.	The cake variable must be initialized with the value &quot;\uD83C\uDF82&quot; when it is declared.
+
+

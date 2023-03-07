@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.jdk13.task08.task0810"\n\nMeasure how long it takes to perform 10,000 get and set calls on each list
+
+Measure how long it takes to perform 10,000 get and set calls on each list.
+The getGetTimeInMs method must return its execution time in milliseconds.
+
+
+Требования:
+1.	The program should display numbers on the screen.
+2.	Don&#39;t change the main method.
+3.	The fill(List list) method must insert 10,000 items into the list.
+4.	The get10000(List list) method should call get 10,000 times on the list.
+5.	The getGetTimeInMs method must call the get10000(List list) method only once.
+6.	The getGetTimeInMs method should return the time (in milliseconds) that it takes to make 10,000 get calls on the list.
+
+

@@ -1,0 +1,20 @@
+taskKey="en.codegym.task.pro.task06.task0609"\n\nA cubed cube calculator
+
+You won&#39;t blow any minds by unveiling a calculator that can raise a number to the power of three.
+But a calculator that can raise a number to the power of nine is another matter! So let&#39;s implement one!
+To do this, create a public static long ninthDegree(long) method.
+It must take a long integer value as an argument.
+The method should raise the passed value to the ninth power and return it as the method&#39;s result.
+You&#39;ll remember from your high school math class that you can get the ninth power of a number if you raise it
+to the third power and then raise the result to the third power.
+Let&#39;s use this rule in our program.
+In the ninthDegree() method, raise the passed argument to the third power using the cube() method.
+Then pass the result to the cube() method once again. The final result is the method&#39;s return value.
+
+
+Требования:
+1.	There must be a public static long ninthDegree(long a) method.
+2.	The ninthDegree() method must return the result of raising the passed number to the power of nine.
+3.	The ninthDegree() method must use the cube() method to successively cube the number.
+
+

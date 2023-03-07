@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task15.task1502"\n\nBack to basics
+
+The program reads a string from the console and displays it in all uppercase letters.
+As it turns out, it doesn&#39;t work in older versions of Java (older than the 7th version).
+Without changing the functionality of the program, rewrite the try-with-resources block
+as an ordinary try-catch statement.
+Don&#39;t forget to call the close() method on objects that use external resources.
+
+
+Требования:
+1.	The program should read a string from the console and display it in all uppercase letters.
+2.	The program must use a try-catch statement (not try-with-resources) as outlined in the task conditions.
+3.	The close() method must be called in the finally block on objects that use external resources.
+
+

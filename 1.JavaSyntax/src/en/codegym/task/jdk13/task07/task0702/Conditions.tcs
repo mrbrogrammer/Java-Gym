@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.jdk13.task07.task0702"\n\nString array in reverse order
+
+1. Create an array of 10 strings.
+2. Enter 8 strings from the keyboard and save them in the array.
+3. Display the contents of the entire array (10 elements) on the screen in reverse order. Each element on a new line.
+
+
+Требования:
+1.	The program should create an array and initialize it with new String[10] value.
+2.	The program should read 8 strings for the array from the keyboard.
+3.	The program should display 10 strings on the screen, each on a new line.
+4.	The program should display the array (10 elements) in reverse order.
+
+

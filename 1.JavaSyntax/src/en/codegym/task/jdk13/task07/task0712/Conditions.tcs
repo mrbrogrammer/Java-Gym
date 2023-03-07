@@ -1,0 +1,17 @@
+taskKey="en.codegym.task.jdk13.task07.task0712"\n\nMinimum or maximum
+
+1. Initialize the strings field in the main method.
+2. Add 10 strings from the keyboard to the strings list.
+3. Determine whether the shortest string or the longest string is encountered first in the list.
+If several strings are shortest or longest, then consider the very first such string encountered.
+4. Display the string described in Step 3. One string should be displayed.
+
+
+Требования:
+1.	The List&lt;Strings&gt; strings field must be initialized in the main method.
+2.	The program should read 10 strings from the keyboard and add them to the list.
+3.	The program should display the shortest string if it comes before the longest.
+4.	The program should display the longest string if it comes before the shortest.
+5.	Only one string should be displayed.
+
+

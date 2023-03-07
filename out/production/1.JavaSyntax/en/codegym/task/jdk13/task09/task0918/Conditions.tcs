@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.jdk13.task09.task0918"\n\nCreating your own exceptions
+
+There are four classes: MyException, MyException2, MyException3, and MyException4.
+Inherit the classes so that you get any two checked exceptions and any two unchecked exceptions.
+
+
+Требования:
+1.	The Solution class must have 4 nested classes: MyException, MyException2, MyException3, and MyException4.
+2.	All the nested classes must inherit exception classes.
+3.	Two of the four classes must be checked exceptions.
+4.	Two of the four classes must be unchecked exceptions.
+
+

@@ -1,0 +1,17 @@
+taskKey="en.codegym.task.jdk13.task06.task0610"\n\nConsoleReader class
+
+In the ConsoleReader class, implement four static methods:
+- String readString() - reads a string from the keyboard
+- int readInt() - reads a number from the keyboard
+- double readDouble() - reads a fractional number from the keyboard
+boolean readBoolean() - reads the string &quot;true&quot; or &quot;false&quot; from the keyboard and returns the corresponding boolean value (true or false).
+Please note: in each method, create a variable to read data from the console (BufferedReader or Scanner).
+
+
+Требования:
+1.	The readString method must read and return a String.
+2.	The readInt method must read and return an int.
+3.	The readDouble method must read and return a double.
+4.	The readBoolean method must read and return a boolean value.
+
+

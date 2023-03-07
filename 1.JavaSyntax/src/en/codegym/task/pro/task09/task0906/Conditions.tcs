@@ -1,0 +1,39 @@
+taskKey="en.codegym.task.pro.task09.task0906"\n\nBinary converter
+
+The public static toBinary(int) method must convert the integer received as an input parameter
+from the decimal numeral system to binary and return its string representation.
+And conversely, the public static toDecimal(String) method converts
+from the string representation of a binary number to a decimal number.
+
+The methods only work with positive numbers and non-empty strings.
+If the input parameter is less than or equal to 0, the toBinary(int) method returns an empty string.
+If the input parameter is an empty string or null, then the toDecimal(String) method returns 0.
+
+Your task is to implement these methods.
+
+One algorithm for converting a decimal number to the string representation of a binary number is as follows:
+while (the decimal number is not 0) {
+the binary representation = remainder of the division of the decimal number by 2 + the binary representation
+the decimal number = the decimal number / 2
+}
+One algorithm for converting the string representation of a binary number to a decimal number is as follows:
+for (int i = 0; i &lt; length of the binary representation; i++) {
+the decimal number = the decimal number + digit in the binary representation * 2 to the power of i
+}
+Initially, the rightmost number is taken from the binary representation.
+With each iteration of the loop, we take the next number closer to the beginning of the binary representation.
+
+Hint: You can use the Math.pow(number, degree) method to raise a number to a power.
+The main() method is not involved in testing.
+
+
+Требования:
+1.	The toBinary(int) method needs to be implemented as outlined in the task conditions.
+2.	The toDecimal(String) method needs to be implemented as outlined in the task conditions.
+3.	The Integer.toBinaryString(int) and Long.toBinaryString(int) methods cannot be used.
+4.	The Integer.parseInt(String, int) and Long.parseLong(String, int) methods cannot be used.
+5.	The Integer.toString(int, int) and Long.toString(long, int) methods cannot be used.
+6.	You cannot use a BigInteger object.
+7.	You cannot use a BigDecimal object.
+
+

@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.jdk13.task09.task0934"\n\nWord palindrome
+
+Implement the isPalindrome(String) method so that it checks whether the input word is a palindrome.
+A palindrome is a word that read the same in both directions.
+Don&#39;t consider whether the letters are uppercase or lowercase.
+
+
+Требования:
+1.	The isPalindrome(String) method needs to return true if the passed word is a palindrome and false if it is not a palindrome.
+
+

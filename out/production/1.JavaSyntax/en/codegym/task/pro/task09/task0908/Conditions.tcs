@@ -1,0 +1,48 @@
+taskKey="en.codegym.task.pro.task09.task0908"\n\nBinary to hexadecimal converter
+
+The public static toHex(String) method must convert the string representation of a binary number,
+received as an input parameter, from the binary numeral system to hexadecimal and return its string representation.
+And conversely, the public static toBinary(String) method converts from the string representation
+of a hexadecimal number to the string representation of a binary number.
+
+The methods only work with non-empty strings.
+If the input parameter is an empty string or null, then both methods return an empty string.
+If the input parameter of the toHex(String) method contains any character other than 0 or 1,
+then the method returns an empty string.
+If the input parameter of the toBinary(String) method contains any character other than digits
+from 0 to 9 or lowercase Latin letters from a to f, then the method returns an empty string.
+
+Your task is to implement these methods.
+
+One algorithm for converting the string representation of a binary number to the string representation
+of a hexadecimal number is as follows:
+1. We check the length of the string received in the input parameter. It must be a multiple of 4.
+2. If this is not the case, then add the required number of 0s to the beginning of the string.
+3. We take every four characters (bits) and check which hexadecimal character they correspond to.
+
+For example:
+- the binary representation is &quot;100111010000&quot;, where &quot;1001&quot; is &quot;9&quot;, &quot;1101&quot; is &quot;d&quot;, and &quot;0000&quot; - &quot;0&quot;
+- the hexadecimal representation is &quot;9d0&quot;.
+
+One algorithm for converting the string representation of a hexadecimal number to the string representation
+of a binary number is as follows:
+We take each character and check which binary number (4 bits) it corresponds to.
+
+For example:
+- the hexadecimal representation is &quot;9d0&quot;, where &quot;9&quot; is &quot;1001&quot;, &quot;d&quot; is &quot;1101&quot;, and &quot;0&quot; is &quot;0000&quot;
+- the binary representation is &quot;100111010000&quot;.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	The toHex(String) method needs to be implemented as outlined in the task conditions.
+2.	The toBinary(String) method needs to be implemented as outlined in the task conditions.
+3.	The Integer.toBinaryString(int) and Long.toBinaryString(int) methods cannot be used.
+4.	The Integer.toHexString(int) and Long.toHexString(int) methods cannot be used.
+5.	The Integer.parseInt(String, int) and Long.parseLong(String, int) methods cannot be used.
+6.	The Integer.toString(int, int) and Long.toString(long, int) methods cannot be used.
+7.	You cannot use a BigInteger object.
+8.	You cannot use a BigDecimal object.
+
+

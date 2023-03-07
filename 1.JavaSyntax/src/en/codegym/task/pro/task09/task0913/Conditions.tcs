@@ -1,0 +1,24 @@
+taskKey="en.codegym.task.pro.task09.task0913"\n\nSearching in a string
+
+The getIndexOfFirstWord(String, String) method and the getIndexOfLastWord(String, String) method both accept
+a string and a word.
+
+The getIndexOfFirstWord(String, String) method needs to return the index of the first character
+of the first instance of the word (the second method parameter) in the string (the first method parameter).
+And the getIndexOfLastWord(String, String) method needs to return the index of the first character
+of the last instance of the word (the second method parameter) in the string (the first method parameter).
+
+Example:
+The string is &quot;To become a programmer, you need to write code. To write code, you have to learn. To learn, you need desire.&quot;
+The word is &quot;code&quot;
+
+getIndexOfFirstWord(string, word) method must return 42
+getIndexOfLastWord(string, word) method must return 57
+The main() method is not involved in testing.
+
+
+Требования:
+1.	You need to display the index of the first character of the first instance of the word (the second method parameter) in the string (the first method parameter).
+2.	You need to display the index of the first character of the last instance of the word (the second method parameter) in the string (the first method parameter).
+
+

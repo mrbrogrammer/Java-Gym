@@ -1,0 +1,10 @@
+taskKey="en.codegym.task.pro.task05.task0518"\n\nSorting an array
+
+Implement the main(String[]) method, which sorts array in ascending order.
+Use the Arrays.sort(int[]) method to sort the array.
+
+
+Требования:
+1.	Implement the main(String[]) method in accordance with the task conditions.
+
+

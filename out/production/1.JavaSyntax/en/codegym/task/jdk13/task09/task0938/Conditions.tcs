@@ -1,0 +1,20 @@
+taskKey="en.codegym.task.jdk13.task09.task0938"\n\nBinary encoding
+
+Since computers only operate using 0s (no voltage) and 1s (voltage), there is a need to translate human-readable data
+into machine-readable data. Digits, symbols and special characters have their own code (decimal number) in the Unicode table.
+Implement the toBinary(int) method, which converts the decimal number received as input to binary and then returns its string representation.
+For example, the string &quot;CodeGym!&quot; has the following binary representation (each character on a new line):
+C - 01000011
+o - 01101111
+d - 01100100
+e - 01100101
+G - 01000111
+y - 01111001
+m - 01101101
+! - 00100001
+
+
+Требования:
+1.	The toBinary(int) method needs to be implemented as outlined in the task conditions.
+
+

@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task06.task0615"\n\nEverything you need to know about Earth
+
+Here is the Earth class &mdash; a collection of variables that describe certain characteristics of the planet Earth.
+Be sure that the variables of the Earth class are global constants. Don&#39;t forget to rename the variables
+so that they comply with code style conventions for global variables.
+
+
+Требования:
+1.	The Earth class&#39;s name variable needs to be changed into a global variable.
+2.	The Earth class&#39;s square variable needs to be changed into a global variable.
+3.	The Earth class&#39;s population variable needs to be changed into a global variable.
+4.	The Earth class&#39;s equatorLength variable needs to be changed into a global variable.
+
+

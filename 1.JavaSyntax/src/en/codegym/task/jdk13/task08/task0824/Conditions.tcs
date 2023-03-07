@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.jdk13.task08.task0824"\n\nThe whole family together
+
+1. The Human class should have String name, boolean sex, int age, and ArrayList&lt;Human&gt; children fields.
+2. Create objects and fill them so we end up with two grandparents, two grandmothers, a father, a mother, and three children.
+3. Display all the Human objects on the screen (Hint: use the toString() method of the Human class).
+
+
+Требования:
+1.	The program should display text on the screen.
+2.	The Human class must have four fields.
+3.	The Human class must have one method.
+4.	The Solution class must have one method.
+5.	The program should create objects and fill them with data to get the following: two grandfathers, two grandmothers, one father, one mother, and three children. The program should then display all the Human objects on the screen.
+
+

@@ -1,0 +1,20 @@
+taskKey="en.codegym.task.pro.task05.task0519"\n\nIs anyone there?
+
+Implement the main(String[]) method, which displays true if the element is contained in the passed array, otherwise false.
+The array variable should not change the position of its elements.
+
+To search for an element in an array, you need a binary search. To do this, use the static Arrays.binarySearch(int[], int) method of the Arrays class.
+In the first argument, pass a sorted array to be searched. The second parameter is the element to be searched for.
+The Arrays.binarySearch(int[], int) method returns the index of the query element, if such an element exists in the array.
+
+You can use the Arrays.sort(int[]) method to sort the array.
+During testing, the values of the variables in the Solution class will be different.
+
+
+Требования:
+1.	In the main(String[]) method, do not change the position of the elements in the array.
+2.	When the main(String[]) method is called, display true if the value of the element variable is contained in the array.
+3.	When the main(String[]) method is called, display false if the passed element is not contained in the array.
+4.	In the main(String[]) method, use a call to the Arrays.binarySearch(int[], int) method.
+
+

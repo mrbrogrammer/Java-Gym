@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.pro.task05.task0517"\n\nSplitting an array
+
+Implement the main(String[]) method, which splits an array into two subarrays and fills a two-dimensional result array with them.
+If the length of the array is odd, then the larger half should be copied into the first subarray.
+If the length of the array is even, then it should be split/copied evenly between the two subarrays.
+Use the Arrays.copyOfRange(int[], int, int) method to split the array. Do not change the order of the elements.
+During testing, the values of the fields in the Solution class will be different. Take that into consideration.
+
+
+Требования:
+1.	Implement the main(String[]) method in accordance with the task conditions.
+
+

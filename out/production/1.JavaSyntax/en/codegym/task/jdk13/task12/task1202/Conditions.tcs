@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.jdk13.task12.task1202"\n\nApproximate value
+
+When converting from integers to floating point numbers, the lower order parts of numbers may be discarded. Let&#39;s test this in practice.
+In the getDifference method, the incoming argument has already been converted to a float.
+Determine what was discarded during the conversion and return the missing part.
+
+
+Требования:
+1.	The getDifference method should return the difference between the input argument and the approx local variable.
+
+

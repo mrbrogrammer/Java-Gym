@@ -1,0 +1,12 @@
+taskKey="en.codegym.task.jdk13.task09.task0925"\n\nStatic modifiers are out of place
+
+Rearrange the static modifiers so that the program compiles.
+
+
+Требования:
+1.	The class must have four variables: A, B, C, D.
+2.	Don&#39;t change the main method.
+3.	Don&#39;t change the getA method.
+4.	There must be 3 static fields in the class.
+
+

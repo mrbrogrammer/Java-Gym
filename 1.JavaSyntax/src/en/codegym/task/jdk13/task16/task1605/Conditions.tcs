@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.jdk13.task16.task1605"\n\nThrowing exceptions
+
+There are four non-static methods: method1(), method2(), method3(), method4().
+Using the throws keyword, make it so that method1() and method2() throw any checked exception,
+and method3() and method4() throw an unchecked exception.
+
+
+Требования:
+1.	You need to have 4 public non-static methods in the Solution class: method1(), method2(), method3(), method4().
+2.	The method1() and method2() methods need to throw any checked exceptions.
+3.	The method3() and method4() methods need to throw any unchecked exception.
+
+

@@ -1,0 +1,23 @@
+taskKey="en.codegym.task.pro.task06.task0613"\n\nGiant cities
+
+The program should display the population of the largest cities in the world and compare them with Tokyo, the most populous city of all.
+But the program&#39;s algorithm is slightly broken. To correct the error, you need to make it so the line that displays information
+about the world&#39;s largest city uses static class variables instead of local method arguments.
+
+When the program is working correctly, the output should be as follows:
+The population of Jakarta is 25.3 million.
+But in the most populous city, Tokyo, the population is 34.5 million.
+The population of Seoul is 25.2 million.
+But in the most populous city, Tokyo, the population is 34.5 million.
+The population of Delhi is 23.1 million.
+But in the most populous city, Tokyo, the population is 34.5 million.
+The population of New York City is 21.6 million.
+But in the most populous city, Tokyo, the population is 34.5 million.
+
+
+Требования:
+1.	You cannot change the names of the variables.
+2.	The class&#39;s static city and population variables should be used to display information about the most populous city.
+3.	The program&#39;s console output must match the task conditions.
+
+

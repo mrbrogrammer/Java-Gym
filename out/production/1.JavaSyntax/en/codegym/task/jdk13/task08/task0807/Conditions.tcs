@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.jdk13.task08.task0807"\n\nLinkedList and ArrayList
+
+You need to create two lists: a LinkedList and an ArrayList.
+
+
+Требования:
+1.	 The program must only have three methods.
+2.	The createArrayList() method must create and return an ArrayList.
+3.	The createLinkedList() method must create and return a LinkedList.
+
+

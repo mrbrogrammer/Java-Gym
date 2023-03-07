@@ -1,0 +1,20 @@
+taskKey="en.codegym.task.pro.task09.task0909"\n\nEscaping characters
+
+Display the following text on two lines:
+
+It&#39;s a Windows path: &quot;C:\Program Files\Java\jdk-13.0.0\bin&quot;
+It&#39;s a Java string: \&quot;C:\\Program Files\\Java\\jdk-13.0.0\\bin\&quot;
+Hint:
+\&quot; is for escaping a double quotation mark;
+\\ is for escaping a backslash (\).
+Read more about escaping characters and escape sequences in Java in this article:
+https://codegym.cc/groups/posts/escaping-characters-java
+
+
+Требования:
+1.	You need to make the program display text.
+2.	You need to display two lines.
+3.	The first line of text should be: It&#39;s a Windows path: &quot;C:\Program Files\Java\jdk-13.0.0\bin&quot;
+4.	The second line of text should be: It&#39;s a Java string: \&quot;C:\\Program Files\\Java\\jdk-13.0.0\\bin\&quot;
+
+

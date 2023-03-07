@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.jdk13.task05.task0522"\n\nMax constructors
+
+Study the Circle class. Write the maximum number of possible constructors with different arguments.
+Hint: Don&#39;t forget about the default constructor.
+
+
+Требования:
+1.	The class must have at least three variables.
+2.	The class must have a default constructor.
+3.	The class must have at least one constructor.
+4.	The class must have at least two constructors.
+5.	The class must have at least three constructors.
+6.	The class must have at least four constructors.
+
+

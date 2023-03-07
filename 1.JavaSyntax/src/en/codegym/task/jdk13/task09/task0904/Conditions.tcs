@@ -1,0 +1,12 @@
+taskKey="en.codegym.task.jdk13.task09.task0904"\n\nStack trace with 10 calls
+
+Write the code to get a stack that is 10 calls deep. Don&#39;t change the main method.
+
+
+Требования:
+1.	There should be 10 methods in the class (in addition to the main method).
+2.	The variable stackTraceLength must end up being equal to 10.
+3.	In each method, you need to call another method, the next one in order.
+4.	Use the Thread.currentThread().getStackTrace() method.
+
+

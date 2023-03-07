@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.pro.task06.task0603"\n\nFavorite dish
+
+Rename the parameters of the printPersonInfo() method:
+- firstName to name;
+- lastName to surname;
+- favoriteDish to meal;
+without changing the program&#39;s functionality.
+Leave the variable names in the main() method unchanged.
+
+
+Требования:
+1.	The parameters of the printPersonInfo() method must be named name, surname, and meal.
+2.	The console output must match the task conditions.
+3.	In the main() method, the firstName, lastName, and favoriteDish should remain unchanged.
+
+

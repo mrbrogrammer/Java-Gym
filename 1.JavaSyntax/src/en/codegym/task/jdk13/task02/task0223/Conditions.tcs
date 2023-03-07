@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.jdk13.task02.task0223"\n\nVariety
+
+In the Solution class, create six variables:
+- declare two of them using separate statements, and assign them some values immediately upon declaring them;
+- declare two variables on one line, and do not assign anything to them;
+- and declare two more variables on one line, and immediately upon declaration, assign them some values.
+
+
+Требования:
+1.	The Solution class should have two variables that are declared using separate statements and immediately initialized.
+2.	The Solution class should have two variables that are declared using a single statement and not initialized.
+3.	The Solution class should have two variables that are declared using a single statement and immediately initialized.
+
+

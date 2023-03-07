@@ -1,0 +1,20 @@
+taskKey="en.codegym.task.pro.task06.task0601"\n\nSeparate concepts
+
+The main method prints too many lines of information about various concepts.
+It would make sense to separate displaying information about hydrogen from displaying information about the island of Java
+by separating them into different methods.
+Create a public static void printHydrogenInfo() method, which should print all the lines about hydrogen.
+Also, create a public static void printJavaInfo() method, which should print all the lines about the island of Java.
+Finally, in the main() method, call these two methods.
+The general console output shouldn&#39;t change.
+
+
+Требования:
+1.	There must be a public static void printHydrogenInfo() method.
+2.	There must be a public static void printJavaInfo() method.
+3.	The printHydrogenInfo() method should print all existing lines about hydrogen.
+4.	The printJavaInfo() method should print all existing lines about the island of Java.
+5.	The main() method must call the printHydrogenInfo() and printJavaInfo() methods.
+6.	The general console output shouldn&#39;t change.
+
+

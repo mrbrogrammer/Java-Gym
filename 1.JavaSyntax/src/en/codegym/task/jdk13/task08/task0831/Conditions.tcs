@@ -1,0 +1,10 @@
+taskKey="en.codegym.task.jdk13.task08.task0831"\n\nFavorite board games
+
+Create a list of your top 5 favorite board games.
+
+
+Требования:
+1.	In the main method, you need to populate the collection array with BoardGame objects.
+2.	Each BoardGame object must have a unique name (name field).
+
+

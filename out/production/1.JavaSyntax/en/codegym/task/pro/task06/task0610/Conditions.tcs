@@ -1,0 +1,11 @@
+taskKey="en.codegym.task.pro.task06.task0610"\n\nThe struggle for access
+
+Before you is a program that displays information about a person. Unfortunately, it doesn&#39;t compile.
+Change the minimum required number of access modifiers in the Person class for the code to compile.
+
+
+Требования:
+1.	The code must compile.
+2.	Change the minimum required number of access modifiers in the Person class.
+
+

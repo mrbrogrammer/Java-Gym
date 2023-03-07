@@ -1,0 +1,39 @@
+taskKey="en.codegym.task.pro.task09.task0907"\n\nHexadecimal converter
+
+The public static toHex(String) method must convert the integer received as an input parameter
+from the decimal numeral system to hexadecimal and return its string representation.
+And conversely, the public static toDecimal(String) method converts
+from the string representation of a hexadecimal number to the string representation of a decimal number.
+
+The methods only work with positive numbers and non-empty strings.
+If the input parameter is less than or equal to 0, the toHex(int) method returns an empty string.
+If the input parameter is an empty string or null, then the toDecimal(String) method returns 0.
+Your task is to implement these methods.
+
+Also the Solution class has a HEX constant, which contains all the characters used in the hexadecimal system.
+
+One algorithm for converting a decimal number to hexadecimal is as follows:
+while (the decimal number is not 0) {
+the hexadecimal representation = the character in the HEX string that has an index equal to the remainder of the decimal number divided by 16
++ the hexadecimal representation of the number
+the decimal number = the decimal number / 16
+}
+
+One algorithm for converting a hexadecimal number to decimal is as follows:
+for (int i = 0; i &lt; length of the input string; i++) {
+the decimal number = 16 * the decimal number + the index of the character in the HEX string that is equal to the character in the input string at index i
+}
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	The toHex(int) method needs to be implemented as outlined in the task conditions.
+2.	The toDecimal(String) method needs to be implemented as outlined in the task conditions.
+3.	The Integer.toHexString(int) and Long.toHexString(int) methods cannot be used.
+4.	The Integer.parseInt(String, int) and Long.parseLong(String, int) methods cannot be used.
+5.	The Integer.toString(int, int) and Long.toString(long, int) methods cannot be used.
+6.	You cannot use a BigInteger object.
+7.	You cannot use a BigDecimal object.
+
+

@@ -1,0 +1,14 @@
+taskKey="en.codegym.task.pro.task06.task0602"\n\nOrderly information
+
+Here is a bad example of using methods:
+1. The methods split up a couplet.
+2. It&#39;s not worth it to wrap a single line of code in a separate method.
+Rewrite the code so that all text is displayed in the main method, and the rest of the methods are removed.
+The execution of the program should not change.
+
+
+Требования:
+1.	The main() method should be the only method in the Solution class.
+2.	The console output must match the task conditions.
+
+

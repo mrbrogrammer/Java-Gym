@@ -1,0 +1,37 @@
+taskKey="en.codegym.task.jdk13.task05.task0501.big04"\n\nCat carnage (4)
+
+Using the three created cats, hold three fights between pairs of cats.
+To hold a fight, use the boolean fight(Cat anotherCat) method.
+Display the result of each fight on a new line.
+
+
+Требования:
+1.	There should be three Cat objects in the main(String []) method.
+2.	You need to hold three fights.
+3.	The program should display the result of each fight on a new line.
+
+
+Cat carnage (4)
+
+Implement the boolean fight(Cat anotherCat) method: think up a mechanism for cat fighting depending on their weight, age, and strength.
+Compare each attribute separately so that the winner is the one with the best performance in regards to the most attributes.
+The method should determine whether the current cat (this) wins the fight or not, i.e. return true if the current cat wins and false if it loses.
+If the fight is a draw and no one wins, then return false.
+
+
+
+Cat carnage (4)
+
+Your job is to realize cats in the flesh &mdash; in the image and likeness of the Cat class,
+or more accurately, using it as a template. The number of cats shall be three.
+Fill these three with life, or in other words, specific data.
+
+
+
+Cat carnage (4)
+
+You have an empty Cat class created by students at the secret CodeGym lab.
+A cat (Cat class) must have a name (String name), age (int age), weight (int weight), and strength (int strength).
+
+
+

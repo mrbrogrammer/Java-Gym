@@ -1,0 +1,17 @@
+taskKey="en.codegym.task.jdk13.task06.task0611"\n\nStringHelper class
+
+In the StringHelper class, implement two static methods:
+- String multiply(String s, int count) - returns a string that has been repeated count times
+- String multiply(String s) - returns a string that has been repeated 5 times.
+Example:
+Amigo -&gt; AmigoAmigoAmigoAmigoAmigo
+
+
+Требования:
+1.	The StringHelper class&#39;s methods must return a string.
+2.	The StringHelper class&#39;s methods must be static.
+3.	The StringHelper class&#39;s methods must be public.
+4.	The multiply(String s, int count) method must return a string that has been repeated count times.
+5.	The multiply(String s) method must return a string that has been repeated 5 times.
+
+

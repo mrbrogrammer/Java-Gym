@@ -1,0 +1,19 @@
+taskKey="en.codegym.task.pro.task05.task0509"\n\nMultiplication table
+
+Initialize the MULTIPLICATION_TABLE array as a new int[10][10], fill it with a multiplication table,
+and then display it on the console in the following form:
+1 2 3 4 &hellip;
+2 4 6 8 &hellip;
+3 6 9 12 &hellip;
+4 8 12 16 &hellip;
+&hellip;
+The numbers in each line are separated by a space.
+
+
+Требования:
+1.	In the main method, the MULTIPLICATION_TABLE array must be filled with a multiplication table.
+2.	The displayed text should contain 10 lines.
+3.	Each displayed line should contain 10 numbers separated by a space.
+4.	The displayed numbers must form a multiplication table.
+
+

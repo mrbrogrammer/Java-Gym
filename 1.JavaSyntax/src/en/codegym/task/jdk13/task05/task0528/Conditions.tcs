@@ -1,0 +1,13 @@
+taskKey="en.codegym.task.jdk13.task05.task0528"\n\nDisplay today's date
+
+Display the current date in the following format: &quot;06 15 2018&quot;.
+
+
+Требования:
+1.	The date must contain the month, day, and year, separated by a space.
+2.	The month should match the current month.
+3.	The day should match the current day.
+4.	The year should match the current year.
+5.	The entire date should be displayed on a single line.
+
+

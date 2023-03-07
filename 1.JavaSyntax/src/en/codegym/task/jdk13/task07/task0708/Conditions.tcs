@@ -1,0 +1,12 @@
+taskKey="en.codegym.task.jdk13.task07.task0708"\n\nThe largest number
+
+1. Read 5 numbers from the keyboard and add them to the integers list.
+2. Find the maximum number in the list.
+3. Display the found number on the screen.
+
+
+Требования:
+1.	The program should read 5 numbers from the keyboard and write them to the integers field of the Solution class.
+2.	The program must display the maximum number on the screen.
+
+

@@ -1,0 +1,23 @@
+taskKey="en.codegym.task.pro.task09.task0912"\n\nURL validation
+
+In this task, you need to perform URL validation.
+
+A simple URL scheme looks like this:
+&lt;network protocol&gt;://&lt;resource name&gt;.&lt;domain&gt;
+
+The checkProtocol(String) method checks the network protocol (http or https) of the URL passed in input parameter
+and returns the result of this check &mdash; the name of the network protocol as a string.
+And the checkDomainExtension(String) method checks the domain (com, net, org, or us) of the URL passed
+in the input parameter, and returns the result of the check &mdash; the domain extension as a string.
+
+If the URL does not start with http or https, then the result will be &quot;unknown&quot;.
+If the URL does not end with com, net, org, or us, the result is &quot;unknown&quot;.
+
+The main() method is not involved in testing.
+
+
+Требования:
+1.	The checkProtocol(String) method needs to be implemented as outlined in the task conditions.
+2.	The checkDomainExtension(String) method needs to be implemented as outlined in the task conditions.
+
+

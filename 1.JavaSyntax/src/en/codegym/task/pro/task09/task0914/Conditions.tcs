@@ -1,0 +1,18 @@
+taskKey="en.codegym.task.pro.task09.task0914"\n\nPath update
+
+Implement the changePath(String, String) method so that it replaces the jdk version in the path passed in the first method parameter with the version passed in the
+second parameter, and returns the new path.
+The JDK version starts with &quot;jdk&quot; and ends at &quot;/&quot;.
+
+Example:
+path - &quot;/usr/java/jdk1.8/bin&quot;
+JDK version - &quot;jdk-13&quot;
+
+The changePath(path, JDK version) method should return the path &quot;/usr/java/jdk-13/bin&quot;.
+The main() method is not involved in testing.
+
+
+Требования:
+1.	The changePath(String, String) method needs to be implemented as outlined in the task conditions.
+
+

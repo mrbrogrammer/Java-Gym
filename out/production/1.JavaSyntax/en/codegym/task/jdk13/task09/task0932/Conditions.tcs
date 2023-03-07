@@ -1,0 +1,10 @@
+taskKey="en.codegym.task.jdk13.task09.task0932"\n\nNumber of words in a string
+
+Implement the getWordCount(String) method to return the number of words in the string received in the input parameter.
+Hint: A word is a sequence of non-whitespace characters separated by a single space.
+
+
+Требования:
+1.	You need the getWordCount(String) method to return the number of words in the string received in the input parameter.
+
+

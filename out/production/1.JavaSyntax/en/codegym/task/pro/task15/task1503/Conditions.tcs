@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.pro.task15.task1503"\n\nThere are a lot of resources
+
+The program reads from the console the path to a file, reads lines from the file, and displays them on the screen.
+Rewrite the code using try-with-resources: create objects that use external resources inside the parentheses.
+Remember to remove the unnecessary finally block and the calls to the close() method.
+
+
+Требования:
+1.	The program should read the path to a file from the console, then read lines from the file and display them on the screen.
+2.	The program must use the try-with-resources statement as outlined in the task conditions.
+3.	The try-with-resources statement must not have a finally block.
+4.	The close() method must not be explicitly called on objects that use external resources.
+5.	Do not use the following classes from the java.io package: File, FileInputStream, FileOutputStream, FileReader, FileWriter.
+
+

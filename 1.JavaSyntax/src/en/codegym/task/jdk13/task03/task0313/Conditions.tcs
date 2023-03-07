@@ -1,0 +1,20 @@
+taskKey="en.codegym.task.jdk13.task03.task0313"\n\nSam I Am
+
+Display all possible combinations of the words &quot;Sam&quot;, &quot;I&quot;, &quot;Am&quot;.
+Hint: There are 6 combinations. You need to display each combination on a new line. Do not separate the words.
+Example:
+IAmSam
+AmSamI
+...
+
+Use either the System.out.printf() or String.format() method to generate the strings.
+
+
+Требования:
+1.	The program should output text.
+2.	The displayed text should contain 6 lines.
+3.	The text on each line must be unique.
+4.	To generate the strings, you need to use either the String.format() method or the System.out.printf() method.
+5.	You need to display all possible combinations.
+
+

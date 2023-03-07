@@ -1,0 +1,17 @@
+taskKey="en.codegym.task.pro.task05.task0520"\n\nChanging shoes on the move
+
+Practice declaring and changing the values of variables while a program is running:
+1. Put a break point on the call to the println method and run the program in debug mode.
+2. After execution stops, press F8 exactly 9 times.
+3. Look at the current value for the correction variable and set the fahrenheit variable to the same value (in the debug window).
+4. Press F8 6 more times.
+5. Look at the current value of the correction variable and assign this value to the result field (change the source code).
+
+This means there should be only one change in the Solution class: the result field should be initialized when it is declared.
+
+
+Требования:
+1.	Don&#39;t change the main method.
+2.	The result field must be assigned the correct value.
+
+

@@ -1,0 +1,35 @@
+taskKey="en.codegym.task.jdk13.task07.task0727"\n\nYou need to replace the program's functionality
+
+Currently, the program reads lines from the keyboard until you enter an empty string.
+All the entered strings are converted to uppercase and displayed on the screen. For example, if the string &quot;Mom&quot; is entered,
+followed by an empty string, then &quot;MOM&quot; should be displayed.
+The modified program should read lines from the keyboard until you enter an empty string.
+Then it should create a new list of strings using the following algorithm:
+1) if an input string contains an even number of characters, then the string is repeated, separated by a space:
+&quot;qq&quot; -&gt; &quot;qq qq&quot;,
+&quot;forty one&quot; -&gt; &quot;forty one forty one&quot;;
+if odd, then it is repeated three times:
+&quot;z&quot; -&gt; &quot;z z z&quot;,
+&quot;j r&quot; -&gt; &quot;j r j r j r&quot;,
+&quot;. 1&quot; -&gt; &quot;. 1 . 1 . 1&quot;,
+&quot;bug&quot; -&gt; &quot;bug bug bug&quot;.
+The program displays the contents of the new list.
+
+Example input:
+Cat
+Cats
+Cat and cats.
+Example output:
+Cat Cat Cat
+Cats Cats
+Cat and cats. Cat and cats. Cat and cats.
+
+
+Требования:
+1.	The program must read data from the keyboard.
+2.	The program should display as many strings as are entered.
+3.	If a string has an even number of letters, then you need to duplicate the string (as in the example).
+4.	If a string has an odd number of letters, then you need to repeat the string three times (as in the example).
+5.	The keyboard should stop reading data from the keyboard as soon as the user enters an empty string (by pressing Enter).
+
+

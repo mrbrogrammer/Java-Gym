@@ -1,0 +1,16 @@
+taskKey="en.codegym.task.jdk13.task01.task0101"\n\nIt's cool to be a programmer!
+
+Write a program that displays: &quot;I think being a programmer is cool&quot;.
+Example output:
+I think being a programmer is cool
+
+
+Требования:
+1.	The program should output text.
+2.	The text should begin with &quot;I think&quot;.
+3.	The text should end with &quot;is cool&quot;.
+4.	The text should consist of 34 characters, including spaces and punctuation marks.
+5.	The text should consist of one line.
+6.	The displayed text must match the task conditions.
+
+

@@ -1,0 +1,19 @@
+taskKey="en.codegym.task.pro.task06.task0604"\n\nThe Liverpool 4
+
+The createCrew() method displays the positions and names of the crew members on a spacecraft.
+To avoid any confusion inside the method, change the names of the createCrew() method&#39;s parameters
+to match the names of the variables passed to the method:
+- name1 to navigator
+- name2 to pilot
+- name3 in secondPilot
+- name4 to flightEngineer
+
+And there should be no change to the execution of the program.
+
+
+Требования:
+1.	The createCrew() method&#39;s parameters must be named navigator, pilot, secondPilot, and flightEngineer.
+2.	The console output must match the task conditions.
+3.	In the main() method, the navigator, pilot, secondPilot, and flightEngineer variables should remain unchanged.
+
+

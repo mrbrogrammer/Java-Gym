@@ -1,0 +1,15 @@
+taskKey="en.codegym.task.jdk13.task08.task0811"\n\nMethod quartet
+
+Implement the 4 methods. Each of them should return the list that is best suited for performing
+the corresponding operations (i.e. the list that can most quickly perform a large number of operations).
+You don&#39;t need to measure anything.
+
+
+Требования:
+1.	The Solution class must have only 5 methods.
+2.	The getListForGet method should return the list that is best suited for get operations.
+3.	The getListForSet method should return the list that is best suited for set operations.
+4.	The getListForAddOrInsert method should return the list that is best suited for adding or inserting elements.
+5.	The getListForRemove method should return the list that is best suited for deleting elements.
+
+
