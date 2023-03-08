@@ -19,7 +19,7 @@ public class Solution {
         }
 
         //write your code here
-        int[] result = Arrays.copyOf(array, array.length);;
+        int[] result = Arrays.copyOf(array, array.length);
         Arrays.sort(result);
         int x = result[0];
         int y = result[result.length - 1];
