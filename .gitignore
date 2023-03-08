@@ -6,3 +6,6 @@ target/
 .idea
 
 /out.log
+/out.log.1
+/out
+/CodeGymPlugin.properties
