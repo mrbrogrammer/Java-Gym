@@ -24,7 +24,7 @@ public class Solution {
         }
     }
 
-    public static class CTO extends Employee implements Businessman {
+    public static class CTO extends Employee implements Businessman { // should also implement what parent implements
 
     }
 }
