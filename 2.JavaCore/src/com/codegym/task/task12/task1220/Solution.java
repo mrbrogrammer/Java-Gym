@@ -12,7 +12,7 @@ public class Solution {
 
     // Add public interfaces and a public class here
     public abstract class Human implements CanRun, CanSwim {
-    
+        // Crl + o
     }
     
     public interface CanSwim {
