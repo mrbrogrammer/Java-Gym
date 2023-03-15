@@ -33,10 +33,8 @@ public class Solution {
             do {
                 key = reader.readLine();
                 Movie movie = MovieFactory.getMovie(key);
-                if (movie != null)
-                    System.out.println(movie.getClass().getSimpleName());
-                
-            } while (Arrays.binarySearch(VALID_KEYS, key.toLowerCase()) >= 0);
+                System.out.println(movie.getClass().getSimpleName());
+            } while (Arrays.binarySearch(VALID_KEYS, key) >= 0);
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
