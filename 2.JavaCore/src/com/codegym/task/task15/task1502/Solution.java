@@ -9,7 +9,6 @@ public class Solution {
     // Add the Goose and Dragon classes here
 
     public static void main(String[] args) {
-
     }
 
     public static class BigAnimal {
@@ -23,4 +22,20 @@ public class Solution {
             return "like a cat";
         }
     }
+    
+    public static class Goose extends SmallAnimal {
+        @Override
+        public String getSize() {
+            return "A goose is small, " + super.getSize();
+        }
+    }
+    
+    public static class Dragon extends BigAnimal {
+        @Override
+        public String getSize() {
+            return "A dragon is big, " + super.getSize();
+        }
+    }
+    
+    
 }
