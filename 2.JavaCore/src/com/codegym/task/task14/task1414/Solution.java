@@ -34,6 +34,7 @@ public class Solution {
                 key = reader.readLine();
                 Movie movie = MovieFactory.getMovie(key);
                 System.out.println(movie.getClass().getSimpleName());
+                
             } while (Arrays.binarySearch(VALID_KEYS, key) >= 0);
         } catch (Exception e) {
             e.printStackTrace();
