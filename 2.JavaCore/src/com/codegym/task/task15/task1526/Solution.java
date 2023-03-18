@@ -11,14 +11,14 @@ public class Solution {
     }
 
     public static class A {
-        private int f1 = 7;
+        protected int f1;
 
         public A(int f1) {
             this.f1 = f1;
             initialize();
         }
 
-        protected void initialize() {
+        private void initialize() {
             System.out.println(f1);
         }
     }
@@ -26,13 +26,15 @@ public class Solution {
     public static class B extends A {
         protected int f1 = 3;
 
+        static {
+        }
         public B(int f1) {
             super(f1);
             this.f1 += f1;
             initialize();
         }
 
-        protected void initialize() {
+        private void initialize() {
             System.out.println(f1);
         }
     }
