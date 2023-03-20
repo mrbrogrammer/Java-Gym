@@ -6,9 +6,8 @@ Justice
 */
 
 public class Solution {
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) {
         Mouse alpha = new Mouse("#1");
-        alpha.join();
         Mouse mouse1 = new Mouse("#2");
         Mouse mouse2 = new Mouse("#3");
     }
