@@ -19,6 +19,17 @@ public class Solution {
     public static int calculateHorsesFinished(List<Horse> horses) throws InterruptedException {
         int finishedCount = 0;
         //write your code here
+    
+        for (Horse horse : horses) {
+            
+            if (!horse.isFinished()) {
+                System.out.println("Waiting for " + horse.getName());
+                horse.join();
+            } else {
+                finishedCount = finishedCount + 1;
+            }
+       
+        }
         return finishedCount;
     }
 
@@ -29,7 +40,7 @@ public class Solution {
             number = i < 10 ? ("0" + i) : "" + i;
             horses.add(new Horse("Horse_" + number));
         }
-
+    
         for (int i = 0; i < horseCount; i++) {
             horses.get(i).start();
         }
