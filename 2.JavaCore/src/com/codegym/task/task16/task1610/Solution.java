@@ -11,8 +11,8 @@ public class Solution {
         Cat cat2 = new Cat("Coco");
     }
 
-    private static void investigateWorld() {
-
+    private static void investigateWorld() throws InterruptedException {
+        Thread.sleep(200);
     }
 
     public static class Cat extends Thread {
@@ -37,7 +37,9 @@ public class Solution {
 
         private void initAllKittens() throws InterruptedException {
             kitten1.start();
+            kitten1.join();
             kitten2.start();
+            kitten2.join();
         }
     }
 
@@ -48,7 +50,10 @@ public class Solution {
 
         public void run() {
             System.out.println(getName() + " got out of the basket");
-            investigateWorld();
+            try {
+                investigateWorld();
+            } catch (InterruptedException e) {
+            }
         }
     }
 }
