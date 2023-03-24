@@ -33,7 +33,90 @@ import java.util.List;
 
 public class Solution {
     public static List<Thread> threads = new ArrayList<>(5);
-
+    
+    static {
+        threads.add(new Thread1());
+        threads.add(new Thread2());
+        threads.add(new Thread3());
+        threads.add(new Thread4());
+        threads.add(new Thread5());
+    }
     public static void main(String[] args) {
+    
+        threads.get(0).start();
+        Thread2 t2 = (Thread2) threads.get(1);
+        t2.start();
+        threads.get(2).start();
+        Thread4 t1 = (Thread4) threads.get(3);
+        t1.start();
+        threads.get(4).start();
+        
+        t2.interrupt();
+        t2.interrupt();
+        System.out.println(Thread.currentThread().isInterrupted());
+        t1.showWarning();
+        
+        
+        
+    }
+    
+    public static class Thread1 extends Thread {
+    
+        @Override
+        public void run() {
+            while (true){
+            }
+        }
+    }
+    
+    public static class Thread2 extends Thread {
+        
+        @Override
+        public void run() {
+            try {
+                if (this.isInterrupted())
+                    throw new InterruptedException();
+            } catch (InterruptedException e) {
+                System.out.println("InterruptedException");
+            }
+        }
+    }
+    
+    public static class Thread3 extends Thread {
+        
+        @Override
+        public void run() {
+            while (isAlive()) {
+                try {
+                    Thread.sleep(500);
+                    System.out.println("Hooray!");
+                } catch (InterruptedException ignored) {
+                }
+            }
+        }
+    }
+    
+    public static class Thread4 extends Thread implements Message {
+        
+        private boolean isStopped = false;
+        
+        @Override
+        public void run() {
+            while (!isStopped) {
+            }
+            showWarning();
+        }
+    
+        @Override
+        public void showWarning() {
+            isStopped = true;
+        }
+    }
+    
+    public static class Thread5 extends Thread {
+        
+        @Override
+        public void run() {
+        }
     }
 }
