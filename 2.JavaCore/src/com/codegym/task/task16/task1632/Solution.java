@@ -3,8 +3,7 @@ package com.codegym.task.task16.task1632;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.List;
+import java.util.*;
 
 /**
  * Clew
@@ -41,22 +40,20 @@ public class Solution {
         threads.add(new Thread4());
         threads.add(new Thread5());
     }
-    public static void main(String[] args) {
     
+    public static void main(String[] args) {
+        
         threads.get(0).start();
         Thread2 t2 = (Thread2) threads.get(1);
         t2.start();
         threads.get(2).start();
         Thread4 t1 = (Thread4) threads.get(3);
         t1.start();
-        threads.get(4).start();
+        Thread5 t5 = (Thread5) threads.get(4);
+        t5.start();
+        
         
         t2.interrupt();
-        t2.interrupt();
-        System.out.println(Thread.currentThread().isInterrupted());
-        t1.showWarning();
-        
-        
         
     }
     
@@ -64,7 +61,7 @@ public class Solution {
     
         @Override
         public void run() {
-            while (true){
+            while (true) {
             }
         }
     }
@@ -86,15 +83,18 @@ public class Solution {
         
         @Override
         public void run() {
-            while (isAlive()) {
+            while (true) {
                 try {
+                    System.out.println("Hurray");
                     Thread.sleep(500);
-                    System.out.println("Hooray!");
-                } catch (InterruptedException ignored) {
+    
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
                 }
             }
         }
     }
+    
     
     public static class Thread4 extends Thread implements Message {
         
@@ -102,7 +102,7 @@ public class Solution {
         
         @Override
         public void run() {
-            while (!isStopped) {
+            while (! isStopped) {
             }
             showWarning();
         }
@@ -113,10 +113,30 @@ public class Solution {
         }
     }
     
-    public static class Thread5 extends Thread {
+    static class Thread5 extends Thread {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         
         @Override
         public void run() {
+            List<Integer> list = new ArrayList<>();
+            
+            try {
+                while (true) {
+                    list.add(Integer.valueOf(reader.readLine()));
+                }
+            } catch (NumberFormatException | IOException e) {
+            }
+            
+            
+            int result = 0;
+            for (int index = 0; index < list.size(); index++) {
+                result += list.get(index);
+            }
+            
+            System.out.println(result);
+            
         }
     }
 }
+
+
