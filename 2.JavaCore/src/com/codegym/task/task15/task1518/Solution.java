@@ -14,6 +14,10 @@ public class Solution {
     }
 
     public static void main(String[] args) {
+        String a = "sd";
+        String b = "bc";
+    
+        System.out.println(a.compareTo(b));
     }
     
     //  In the Solution class, create a Cat class with a public String field name.
