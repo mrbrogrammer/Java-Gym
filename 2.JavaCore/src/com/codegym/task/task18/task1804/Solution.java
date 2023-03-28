@@ -1,25 +1,50 @@
 package com.codegym.task.task18.task1804;
 
+import java.io.BufferedReader;
 import java.io.FileInputStream;
+import java.io.InputStreamReader;
+import java.util.*;
 
 /* 
 Rarest bytes
-Rarest bytes
-Enter a file name from the console.
-Find the byte or bytes with the minimum number of repetitions.
-Display them on the screen, separated by spaces.
-Close the IO stream.
 
-
-Requirements:
-1. The program should read a file name from the console.
-2. Use a FileInputStream to read from the file.
-3. All of the least frequently repeated bytes from the file should be displayed, separated by spaces.
-4. The screen output should be displayed in one line.
-5. The stream used to read the file must be closed.
 */
 
 public class Solution {
     public static void main(String[] args) throws Exception {
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+    
+        FileInputStream inputStream = new FileInputStream(bufferedReader.readLine());
+    
+        LinkedList<Integer> bytes = new LinkedList<>();
+    
+        while (inputStream.available() > 0) {
+            int b = inputStream.read();
+            bytes.add(b);
+        }
+    
+        inputStream.close();
+        
+        int mincount = Integer.MAX_VALUE;
+        HashMap<Integer, Integer> elementHavingMinFreq = new HashMap<>();
+        for (int i = 0; i < bytes.size(); i++) {
+            int count = 0;
+            for (int j = 0; j < bytes.size(); j++) {
+                if (bytes.get(i) == bytes.get(j))
+                    count++;
+            }
+            
+            elementHavingMinFreq.put(bytes.get(i), count);
+            if (count < mincount) {
+                mincount = count;
+            }
+        }
+    
+        for (HashMap.Entry<Integer, Integer> entry : elementHavingMinFreq.entrySet()) {
+            if (entry.getValue().equals(mincount)) {
+                System.out.print(entry.getKey() + " ");
+            }
+        }
+    
     }
 }
