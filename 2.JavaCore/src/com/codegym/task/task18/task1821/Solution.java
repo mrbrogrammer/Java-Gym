@@ -30,8 +30,53 @@ Requirements:
 5. The stream used to read the file must be closed.
 */
 
-public class Solution {
-    public static void main(String[] args) {
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.*;
 
+public class Solution {
+    public static void main(String[] args) throws IOException {
+    
+    
+        SortedMap<Character, Integer> map = new TreeMap<>();
+        FileInputStream fin = new FileInputStream(args[0]);
+        while (fin.available() > 0) {
+            map.merge((char)fin.read(), 1, Integer::sum); // what is going on here?
+        }
+        fin.close();
+        for (Map.Entry<Character, Integer> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+        
+//        FileInputStream fileInputStream = new FileInputStream(args[0]);
+//        List<Integer> bytes = new ArrayList<>();
+
+//
+//        while (fileInputStream.available() > 0) {
+//            int c = fileInputStream.read();
+//            bytes.add(c);
+//        }
+//
+//        Map<Character, Integer> result = new HashMap<>();
+//        for (int i = 33; i < 127; i++) {
+//
+//            int counter = 0;
+//            for (int j = 0; j < bytes.size(); j++) {
+//                if (i == bytes.get(j)) {
+//                    counter++;
+//                }
+//            }
+//            if (!(i > 47 && i < 58))
+//                result.put((char) i, counter);
+//        }
+//
+//        Arrays.sort(result.keySet().toArray(), null);
+//
+//        for (Map.Entry<Character, Integer> pair : result.entrySet()) {
+//            System.out.println(pair.getKey() + " " + pair.getValue());
+//        }
+
+//        fileInputStream.close();
+    
     }
 }
