@@ -16,7 +16,7 @@ productName is a String — it can contain spaces
 price is a double
 quantity is an int
 
-The inform   ation for each product is stored on a separate line.
+The information for each product is stored on a separate line.
 
 
 Requirements:
