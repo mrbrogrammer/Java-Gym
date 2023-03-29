@@ -1,13 +1,12 @@
 package com.codegym.task.task18.task1825;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Comparator;
-import java.util.Set;
-import java.util.TreeSet;
+import java.io.*;
+import java.nio.file.FileAlreadyExistsException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+import java.nio.file.attribute.FileAttribute;
+import java.util.*;
 
 /* 
 Building a file
@@ -39,6 +38,55 @@ Requirements:
 */
 
 public class Solution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException, InterruptedException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        List<String> fileNames = new ArrayList<>();
+        String p = "";
+        while (true) {
+            String file = reader.readLine();
+            
+            if (file.equals("end") ) {
+                break;
+                
+            }
+            fileNames.add(file);
+        }
+    
+        BufferedReader inputStream;
+        SortedMap<Integer, List<Integer>> map = new TreeMap<>();
+        for (String allFileName : fileNames) {
+    
+            List<Integer> bytes = new ArrayList<>();
+    
+            inputStream = new BufferedReader(new FileReader(allFileName));
+//            String[] list = allFileName.split("\\/");
+//            String fileName = list[list.length -1];
+            String[] splitList = allFileName.split("\\.");
+        
+            p = splitList[0] + "." + splitList[1];
+            
+            while (inputStream.ready()) {
+                char counter = (char) inputStream.read();
+            
+                bytes.add((int) counter);
+            }
+            
+            map.put((int) splitList[2].charAt(splitList[2].length() - 1), bytes);
+            
+            inputStream.close();
+        
+        }
+        
+        System.out.println("p = " + p);
+        BufferedWriter s = new BufferedWriter(new FileWriter(new File(p)));
+    
+        for (Map.Entry<Integer, List<Integer>> pair: map.entrySet()) {
+            for (int index = 0; index < pair.getValue().size(); index++) {
+                s.write(pair.getValue().get(index));
+            }
+        }
+        
+        s.close();
+     
     }
 }

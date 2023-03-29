@@ -1,7 +1,7 @@
 package com.codegym.task.task18.task1823;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.io.*;
+import java.util.*;
 
 /* 
 Threads and bytes
@@ -25,14 +25,85 @@ Requirements:
 public class Solution {
     public static Map<String, Integer> resultMap = new HashMap<String, Integer>();
 
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws IOException, InterruptedException {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        while (true) {
+            String fileName = reader.readLine();
+            if (fileName.equals("exit")) {
+                break;
+            } else {
+                Thread s = new ReadThread(fileName);
+                s.start();
+                s.join();
+            }
+        }
     }
 
     public static class ReadThread extends Thread {
-        public ReadThread(String fileName) {
+        
+        private FileInputStream inStream;
+        
+        private String fileName;
+        
+        public ReadThread(String fileName) throws FileNotFoundException, IOException {
             // Implement constructor body
+            this.fileName = fileName;
+            this.inStream = new FileInputStream(fileName);
         }
+        
         // Implement file reading here
+        @Override
+        public void run() {
+            List<Integer> bytes = new ArrayList<>();
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            
+            while (true) {
+                try {
+                    
+                    char c = (char) inStream.read();
+                    
+                    bytes.add((int) c);
+                    
+                    if (! (inStream.available() > 0)) break;
+                    
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
+            }
+    
+            try {
+                inStream.close();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+            
+            SortedMap<Integer, Integer> result = new TreeMap<>();
+            
+            for (int i = 0; i < bytes.size(); i++ ) {
+                int count = 0;
+                for (int j = 1; j < bytes.size(); j++ ) {
+                    if (bytes.get(i) == bytes.get(j)) {
+                        count++;
+                    }
+                }
+                result.put(count, bytes.get(i));
+            }
+            
+            synchronized (resultMap) {
+                resultMap.put(fileName, result.get(result.lastKey()));
+            }
+            
+            for (Map.Entry<String, Integer> pair: resultMap.entrySet()) {
+                System.out.println(pair.getKey());
+                System.out.println(pair.getValue());
+            }
+            
+        }
+        
+        
     }
 }
