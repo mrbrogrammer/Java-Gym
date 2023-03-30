@@ -26,9 +26,56 @@ Requirements:
 6. The file streams must be closed.
 */
 
+import java.io.*;
+import java.util.Base64;
+import java.util.Objects;
+
 public class Solution {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        Base64.Encoder encoder = Base64.getEncoder();
+        if (Objects.equals(args[0], "-e")) {
+            FileInputStream inStream = new FileInputStream(args[1]);
+            BufferedWriter outStream = new BufferedWriter(new FileWriter(args[2]));
+            String tmp = "";
+            while (inStream.available() > 0) {
+                char c = (char) inStream.read();
+                
+                tmp += String.valueOf(c);
+            }
+    
+            String str = encoder.encodeToString(tmp.getBytes());
+            for (int index = 0; index < str.length(); index++) {
+                outStream.write(str.charAt(index));
+            }
+        
 
+            inStream.close();
+            outStream.close();
+        } else if (Objects.equals(args[0], "-d")) {
+            FileInputStream inStream = new FileInputStream(args[1]);
+            BufferedWriter outStream = new BufferedWriter(new FileWriter(args[2]));
+            String str = "";
+            Base64.Decoder decoder = Base64.getDecoder();
+    
+            while (inStream.available() > 0) {
+    
+                char s = (char) inStream.read();
+                
+                
+                str += String.valueOf(s);
+            }
+    
+            String dStr = new String(decoder.decode(str));
+    
+            for (int index = 0; index < dStr.length(); index++) {
+                outStream.write(dStr.charAt(index));
+            }
+
+          
+
+            inStream.close();
+            outStream.close();
+        }
+    
     }
-
 }
