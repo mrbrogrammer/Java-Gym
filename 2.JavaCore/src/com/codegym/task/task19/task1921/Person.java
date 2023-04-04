@@ -16,8 +16,8 @@ public class Person {
         return name;
     }
 
-    public String getBirthDate() {
+    public Date getBirthDate() {
         SimpleDateFormat sdf = new SimpleDateFormat("dd MM yyyy");
-        return sdf.format(birthDate);
+        return birthDate;
     }
 }

@@ -25,8 +25,8 @@ public class Solution {
         for (int i = 0; i < list.size(); i++) {
             // split the string into strings then add to list
             String[] strings = list.get(i).split(" ");
-            String name = "";
-            String date = "";
+            String name = "".trim();
+            String date = "".trim();
             for (int j = 0; j < strings.length; j++) {
                 try {
                      int num = Integer.parseInt(strings[j]);
@@ -37,10 +37,13 @@ public class Solution {
             }
             
             String[] dateNumber = date.split(" ");
-            PEOPLE.add(new Person(name, new Date(Integer.parseInt(dateNumber[2]) - 1900 , Integer.parseInt(dateNumber[0]) -1, Integer.parseInt(dateNumber[1]))));
+            PEOPLE.add(new Person(name.trim(), new Date(Integer.parseInt(dateNumber[2]) - 1900 , Integer.parseInt(dateNumber[0]) -1, Integer.parseInt(dateNumber[1]))));
 
         }
     
+        
+        
+        
         for (int index = 0; index < PEOPLE.size(); index++) {
             System.out.print(PEOPLE.get(index).getName());
             System.out.println(PEOPLE.get(index).getBirthDate());
