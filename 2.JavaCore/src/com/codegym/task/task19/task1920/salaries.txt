@@ -1,0 +1,4 @@
+Peterson 0.501
+Smith 2
+Peterson 0.85
+Baxter 2
