@@ -23,8 +23,8 @@ public class Solution {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
     
-        FileOutputStream file1OutStream = new FileOutputStream("/Users/admin/Downloads/CodeGymTasks/2.JavaCore/src/com/codegym/task/task18/task1818/file1.txt");
-        FileInputStream file2InStream = new FileInputStream("/Users/admin/Downloads/CodeGymTasks/2.JavaCore/src/com/codegym/task/task18/task1818/file2.txt");
+        FileOutputStream file1OutStream = new FileOutputStream("/Users/admin/Downloads/CodeGymTasks/2.JavaCore/src/com/codegym/task/task18/task1818/file1.txt.txt");
+        FileInputStream file2InStream = new FileInputStream("/Users/admin/Downloads/CodeGymTasks/2.JavaCore/src/com/codegym/task/task18/task1818/file2.txt.txt");
         FileInputStream file3InStream = new FileInputStream("/Users/admin/Downloads/CodeGymTasks/2.JavaCore/src/com/codegym/task/task18/task1818/file3.txt");
     
         byte[] buffer = new byte[file2InStream.available()];
