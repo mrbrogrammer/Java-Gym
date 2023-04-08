@@ -1,17 +1,14 @@
 package com.codegym.task.task20.task2015;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 
 /* 
 Overriding serialization
 
 */
 
-public class Solution implements {
-    private Thread runner;
+public class Solution implements Serializable, Runnable {
+    private transient Thread runner;
     private int speed;
 
     public Solution(int speed) {
@@ -22,6 +19,7 @@ public class Solution implements {
 
     public void run() {
         // Do something here, doesn't matter what.
+        System.out.println("This is " + Thread.currentThread().getName());
     }
 
     /**
@@ -37,6 +35,8 @@ public class Solution implements {
 
     private void readObject(ObjectInputStream in) throws IOException, ClassNotFoundException {
         in.defaultReadObject();
+        Thread t = new Thread(this);
+        t.start();
     }
 
     public static void main(String[] args) {
