@@ -1,6 +1,7 @@
 package com.codegym.task.task21.task2105;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 /* 
@@ -15,12 +16,18 @@ public class Solution {
         this.first = first;
         this.last = last;
     }
-
+    
+    
     public boolean equals(Object o) {
-        if (!(o instanceof Solution))
-            return false;
-        Solution n = (Solution) o;
-        return n.first.equals(first) && n.last.equals(last);
+        if (o == null) return false;
+        if (this == o) return true;
+        if (! (o instanceof Solution)) return false;
+        Solution solution = (Solution) o;
+        return Objects.equals(last, solution.last) && Objects.equals(first, solution.first);
+    }
+    @Override
+    public int hashCode() {
+        return Objects.hash(first, last);
     }
 
     public static void main(String[] args) {
