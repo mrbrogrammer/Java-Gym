@@ -25,4 +25,14 @@ public class Hippodrome {
         this.horses = horses;
     }
     
+    
+    public void run() {
+    }
+    
+    public void move() {
+    }
+    
+    public void print() {
+    }
+    
 }
