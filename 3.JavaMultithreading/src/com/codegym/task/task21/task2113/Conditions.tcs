@@ -1,0 +1,31 @@
+taskKey="com.codegym.task.task21.task2113.big02"\n\nHippodrome (part 2)
+
+
+Hey, we&#39;ve got a hippodrome, and it should have some horses.
+So our hippodrome should store a list of its horses.
+Add a List&lt;Horse&gt; horses field to the Hippodrome class.
+And to ensure that the horses won&#39;t be stolen, make this field private.
+Add a getter for this field.
+
+
+Требования:
+1.	A horse list (horses) must be created in the Hippodrome class.
+2.	A getHorses method that returns the horses list must be created in the Hippodrome class.
+3.	The getHorses method must be declared with the public access modifier.
+4.	The horses field must be declared with a private access modifier.
+
+
+Hippodrome (part 2)
+
+
+Today we&#39;ll write a small game called &#39;Hippodrome&#39;.
+And when I say we, I mean you. I will be your mentor.
+
+To start, we&#39;ll need Hippodrome and Horse classes.
+Create the Hippodrome and Horse classes.
+
+And don&#39;t forget that every program starts with a main method.
+Add one to the Hippodrome class.
+
+
+
