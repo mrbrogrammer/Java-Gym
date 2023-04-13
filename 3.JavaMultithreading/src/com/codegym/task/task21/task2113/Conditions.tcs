@@ -1,4 +1,22 @@
-taskKey="com.codegym.task.task21.task2113.big04"\n\nHippodrome (part 4)
+taskKey="com.codegym.task.task21.task2113.big05"\n\nHippodrome (part 5)
+
+
+Finish writing the Horse class.
+Add a constructor with name, speed, and distance parameters.
+Add getters and setters for all the fields in the Horse class.
+Make all of the methods public unless indicated otherwise.
+
+
+Требования:
+1.	In the Horse class, a constructor must be created with String name, double speed, and double distance parameters.
+2.	The Horse class constructor must correctly initialize the fields using the passed arguments.
+3.	In the Horse class, getters must be created for all of the fields in the class.
+4.	In the Horse class, setters must be created for all of the fields in the class.
+5.	The getters in the Horse class must return the values of the corresponding fields.
+6.	The setters in the Horse class must set the the values of the corresponding fields.
+
+
+Hippodrome (part 5)
 
 
 Now back to the horses. Every horse in a horse race must have a name and speed.
@@ -9,16 +27,8 @@ Accordingly, we&#39;ll also need to store the distance the horse has already run
 Add String name, double speed, and double distance variables to the Horse class.
 
 
-Требования:
-1.	The name field must be created in the Horse class.
-2.	The speed field must be created in the Horse class.
-3.	The distance field must be created in the Horse class.
-4.	The name field must be a String.
-5.	The speed field must be a double.
-6.	The distance field must be a double.
 
-
-Hippodrome (part 4)
+Hippodrome (part 5)
 
 
 Even though we&#39;ve declared the horses variable, we haven&#39;t yet created the list itself (unless of course you&#39;ve managed to get ahead of us).
@@ -27,7 +37,7 @@ Save the passed list in the horses field (initialize the horses field).
 
 
 
-Hippodrome (part 4)
+Hippodrome (part 5)
 
 
 Hey, we&#39;ve got a hippodrome, and it should have some horses.
@@ -38,7 +48,7 @@ Add a getter for this field.
 
 
 
-Hippodrome (part 4)
+Hippodrome (part 5)
 
 
 Today we&#39;ll write a small game called &#39;Hippodrome&#39;.
