@@ -1,4 +1,18 @@
-taskKey="com.codegym.task.task21.task2113.big02"\n\nHippodrome (part 2)
+taskKey="com.codegym.task.task21.task2113.big03"\n\nHippodrome (part 3)
+
+
+Even though we&#39;ve declared the horses variable, we haven&#39;t yet created the list itself (unless of course you&#39;ve managed to get ahead of us).
+Create a Hippodrome class constructor with one List parameter.
+Save the passed list in the horses field (initialize the horses field).
+
+
+Требования:
+1.	A constructor with one List parameter must be created in the Hippodrome class.
+2.	It should be possible to use the new operator to create new Hippodrome objects from outside the Hippodrome class.
+3.	The horses field must be correctly initialized in the Hippodrome class constructor.
+
+
+Hippodrome (part 3)
 
 
 Hey, we&#39;ve got a hippodrome, and it should have some horses.
@@ -8,14 +22,8 @@ And to ensure that the horses won&#39;t be stolen, make this field private.
 Add a getter for this field.
 
 
-Требования:
-1.	A horse list (horses) must be created in the Hippodrome class.
-2.	A getHorses method that returns the horses list must be created in the Hippodrome class.
-3.	The getHorses method must be declared with the public access modifier.
-4.	The horses field must be declared with a private access modifier.
 
-
-Hippodrome (part 2)
+Hippodrome (part 3)
 
 
 Today we&#39;ll write a small game called &#39;Hippodrome&#39;.
