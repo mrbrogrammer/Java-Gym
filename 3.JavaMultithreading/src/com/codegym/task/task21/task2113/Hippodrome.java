@@ -26,10 +26,17 @@ public class Hippodrome {
     }
     
     
-    public void run() {
+    public void run() throws InterruptedException {
+        // Make a loop from 1 to 100 in the run method
+        for (int i = 0; i < 100; i++) {
+            horses.forEach(x -> x.print());
+            Thread.sleep(200);
+        }
+    
     }
     
     public void move() {
+        horses.forEach(Horse::move);
     }
     
     public void print() {
