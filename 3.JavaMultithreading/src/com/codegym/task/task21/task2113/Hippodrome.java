@@ -53,10 +53,6 @@ public class Hippodrome {
     }
     
     public Horse getWinner() {
-//        double[] result = new double[horses.size()];
-//        horses.forEach(x -> result[horses.indexOf(x)] = x.distance);
-//        Arrays.sort(result);
-//
         for (int i = 0; i < horses.size(); i++) {
             for (int j = 0; j < horses.size(); j++) {
                 if (horses.get(i).distance > horses.get(j).distance) {
@@ -66,12 +62,7 @@ public class Hippodrome {
                 }
             }
         }
-    
-        
-    
-    
         return horses.get(0);
-        
     }
     
     public void printWinner() {
