@@ -15,7 +15,6 @@ public class Solution {
     
     static {
         // Populate the countries list
-        
         countries.put("UA", "Ukraine");
         countries.put("US", "United States");
         countries.put("FR", "France");
