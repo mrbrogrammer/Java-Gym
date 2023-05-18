@@ -8,7 +8,7 @@ Simple generics
 
 */
 
-public class Solution {
+public class Solution<T extends HashMap> {
     private HashMap map;
 
     public Solution(HashMap map) {
