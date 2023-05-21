@@ -9,36 +9,16 @@ Entry prohibited!
 
 */
 
-public class House {
+public class House<T> {
 
-    private List residents = new ArrayList();
+    private List<T> residents = new ArrayList();
 
-    public void admit(Object resident) {
+    public void admit(T resident) {
         residents.add(resident);
-        checkConflicts();
     }
 
-    public void expel(Object resident) {
+    public void expel(T resident) {
         residents.remove(resident);
-    }
-
-    private void checkConflicts() {
-        boolean conflict = false;
-        for (Object resident : residents) {
-            if (resident instanceof Dog) {
-                conflict = true;
-            }
-        }
-
-        if (conflict) {
-            Iterator iterator = residents.iterator();
-            while (iterator.hasNext()) {
-                Object resident = iterator.next();
-                if (resident instanceof Cat) {
-                    iterator.remove();
-                }
-            }
-        }
     }
 
     @Override
